@@ -1,0 +1,68 @@
+body{
+    font-size: 1.6rem ;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+a{
+    text-decoration: none;
+}
+.heading-primary{
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 80px;
+}
+.heading-text{
+    font-size: $font-size-17 ;
+    line-height: 25px;
+}
+.note-primary{
+    font-size:$font-size-25 ;
+}
+.note-secondary{
+    font-size: $font-size-15;
+}
+.about-primary{
+    line-height: 70px;
+}
+.about-secondary{
+    color:rgb(65, 64, 64) ;
+    line-height: 22px;
+}
+.services-big{
+    font-size: 30px;
+    line-height: 100px;
+}
+.services-primary{
+    font-size:20px ;
+    font-weight: bold;
+    line-height: $line-height-big;
+    color:rgb(34, 34, 34) ;
+}
+.services-secondary{
+    font-size: $font-size-17 ;
+    line-height: 25px;
+    color: rgb(100, 99, 99);
+}
+.text-align{
+    text-align:center ;
+}
+
+
+.team-big{
+    font-size: 3rem ;
+    line-height: 5rem;
+}
+.team-primary{
+    color:rgb(61, 61, 61) ;
+}
+
+.contact-big{
+    line-height: 6rem;
+}
+.contact-primary{
+    line-height: 50px;
+    font-size: 20px;
+    color:rgb(66, 66, 66) ;
+}
+.contact-secondary{
+    color:rgb(44, 44, 44) ;
+}

@@ -1,0 +1,27 @@
+.btn{
+    border:none ;
+    outline: none;
+    padding:10px 16px ;
+    display: inline-block ;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: white;
+}
+.btn-primary{
+    background-color: rgb(9, 187, 3) ;
+    border-radius: 6px;
+    color:white ;
+    padding:10px 16px ;
+}
+.btn-all , 
+.btn-app ,
+.btn-web ,
+.btn-card{
+    color:black ;
+    text-decoration: none;
+}
+.action{
+    background: rgb(9, 187, 3);
+    color:white ;
+    border-radius: 6px;
+}

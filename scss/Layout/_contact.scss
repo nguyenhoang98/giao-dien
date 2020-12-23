@@ -1,0 +1,11 @@
+.section-contact{
+    padding:20px ;
+    &__title{
+        text-align:center ;
+        padding:60px ;
+    }
+    & i{
+        font-size: 30px;
+        color:rgb(9, 187, 3)
+    }
+}

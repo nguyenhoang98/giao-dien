@@ -1,0 +1,22 @@
+.bg-video{
+    position: absolute ;
+    top:0px ;
+    left:0px ;
+    min-width:100% ;
+    min-height:100% ;
+    z-index: -1;
+    overflow: hidden;
+    &__content{
+        position: absolute;
+        top:0px ;
+        bottom:0px ;
+        width:100% ;
+        height:100% ;
+        object-fit: cover;
+    }
+    &::after{
+        content: '';
+        clear: both;
+        display: table;
+    }
+}

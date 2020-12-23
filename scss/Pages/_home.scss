@@ -1,0 +1,29 @@
+div.section-about{
+    background-color: $color-gray-light-1;
+    padding:20rem 0px ;
+    margin-top:-20rem ;
+}
+
+div.section-skills{
+    width:100% ;
+    padding:20rem 0 ;
+    background:linear-gradient(to bottom right , $color-primary-light , $color-primary-dask) ,
+    url(../image/amthuc20.jpg) no-repeat center ;
+    background-size: cover ;
+    clip-path: ellipse(64% 43% at 50% 50%);
+    -webkit-clip-path: ellipse(64% 43% at 50% 50%);
+    margin-top:-15rem ;
+}
+div.section-courses{
+    background:$color-gray-light-1 ;
+    margin-top:-15rem   ;
+    padding:15rem 0px 15rem 0px ;
+}
+.section-testimonials{
+    position: relative;
+    padding:5rem 0 ;
+}
+.section-enroll{
+    padding:10rem 0 ;
+    background:linear-gradient(to right bottom , $color-primary-light , $color-primary-dask) 
+}

@@ -1,0 +1,11 @@
+.enroll{
+    background: radial-gradient(150% 200% ellipse at -15% , rgba($color-white , .8) 50% , transparent 50%) ,
+    url('../image/amthuc20.jpg') no-repeat center ;
+    background-size: cover ;
+    box-shadow: 0 1.5rem 4rem rgba($color-black , .2) ;
+    border-radius: 5rem ;
+    height: 50rem ;
+    &__form{
+        padding:6rem ;
+    }
+}

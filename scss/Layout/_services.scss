@@ -1,0 +1,13 @@
+.section-services{
+    &__title{
+        text-align:center ;
+    }
+    &__card{
+       padding:10px ;
+    }
+    i{
+        color : rgb(9, 187, 3) ;
+        font-size: 35px;
+        transform: translateY(25px);
+    }
+}

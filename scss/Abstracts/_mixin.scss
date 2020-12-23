@@ -1,0 +1,21 @@
+@mixin clearfix{
+    &::after{
+        content: '';
+        clear: both;
+        display: table;
+    }
+}
+@mixin popup {
+    position: absolute;
+    top:50% ;
+    left:50% ;
+    transform: translate(-50% , -50%);
+}
+@mixin flex{
+    width:100% ;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
