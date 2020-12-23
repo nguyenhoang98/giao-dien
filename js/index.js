@@ -1,6 +1,8 @@
 //  Phần Thư Viện
-$(".header__slider").slick({
-  autoplay: true,
+$(document).ready(function () {
+  $(".header__slider").slick({
+    autoplay: true,
+  });
 });
 AOS.init();
 window.onscroll = function () {
