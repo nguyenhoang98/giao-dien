@@ -600,6 +600,9 @@ a {
   .heading-text {
     font-size: 13px;
   }
+  .contact-sm{
+    font-size : 20px ; 
+  }
 }
 .section-note {
   background-color: #000;
